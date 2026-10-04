@@ -1,0 +1,6 @@
+data = str(input())
+list = data.split(';')
+print('поезд:',list[0])
+print("Маршрут:",list[1],'-',list[2])
+print("Отправление:",list[3])
+print("Цена:",list[4])

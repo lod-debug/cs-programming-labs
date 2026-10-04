@@ -1,0 +1,6 @@
+vvod = input()
+print(len(vvod))
+print(vvod.isalpha())
+print(vvod.isdigit())
+print(vvod.isalnum())
+print('-' in vvod)
